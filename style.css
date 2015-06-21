@@ -2,3 +2,53 @@
 	margin: 0;
 	padding: 0;
 }
+
+h1 {
+	float: left;
+	width: 300px;
+}
+h4 {
+	float: right;
+	width: 600px;
+	padding-top: 15px;
+	padding-bottom: 0px;
+}
+
+.top {
+	max-width: 900px;
+	margin: auto;
+	/*float: auto;*/
+}
+
+hr {
+	width: 900px;
+	margin: auto;
+}
+
+.comment-input {
+	float: left;
+	width: 300px;
+}
+
+.comments {
+	float: right;
+	width: 600px;
+}
+
+.comments p:nth-child(even) {
+	background: lavender;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border-radius: 25px;
+	border: 10px none;
+}
+
+.comments p:nth-child(odd) {
+	background: gainsboro;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border-radius: 25px;
+	border: 10px none;
+}
