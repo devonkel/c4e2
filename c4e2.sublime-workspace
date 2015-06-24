@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"comment",
+				"comment-input"
+			],
+			[
+				"c",
+				"comment_text"
+			],
+			[
+				"co",
+				"comment-input"
+			],
+			[
+				"new",
+				"new_comment"
+			],
+			[
+				"comme",
+				"comment"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"mr",
+				"margin"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
 				"he",
 				"head	Tag"
 			],
@@ -43,7 +83,15 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 509,
+				"buffer_size": 957,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index2.html",
+			"settings":
+			{
+				"buffer_size": 669,
 				"line_ending": "Unix"
 			}
 		},
@@ -51,8 +99,25 @@
 			"file": "app.js",
 			"settings":
 			{
-				"buffer_size": 98,
+				"buffer_size": 718,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 661,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "style2.css",
+			"settings":
+			{
+				"buffer_size": 1175,
+				"line_ending": "Unix",
+				"name": "* {"
 			}
 		}
 	],
@@ -154,15 +219,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 509,
+						"buffer_size": 957,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								334,
-								334
+								112,
+								112
 							]
 						],
 						"settings":
@@ -178,18 +243,46 @@
 				},
 				{
 					"buffer": 2,
-					"file": "app.js",
+					"file": "index2.html",
 					"settings":
 					{
-						"buffer_size": 98,
+						"buffer_size": 669,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								429,
+								429
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app.js",
+					"settings":
+					{
+						"buffer_size": 718,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								718,
+								718
 							]
 						],
 						"settings":
@@ -198,6 +291,61 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "style.css",
+					"settings":
+					{
+						"buffer_size": 661,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								612,
+								612
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "style2.css",
+					"settings":
+					{
+						"buffer_size": 1175,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								856,
+								856
+							]
+						],
+						"settings":
+						{
+							"auto_name": "* {",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 644.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
